@@ -1,0 +1,23 @@
+{
+  "name": "sketch",
+  "version": "1.0.0",
+  "description": "Sketch Onboarding Test Suite",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegohdb/sketch.git"
+  },
+  "author": "Diego Bezerra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegohdb/sketch/issues"
+  },
+  "homepage": "https://github.com/diegohdb/sketch#readme",
+  "dependencies": {
+    "cypress": "^9.6.0",
+    "cypress-dotenv": "^2.0.0"
+  }
+}
